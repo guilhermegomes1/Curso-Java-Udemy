@@ -31,6 +31,7 @@ public class EntradaUsuario {
     int x;
 
     x = input.nextInt();
+    input.nextLine(); //solução para consumir a quebra de linha anterior, que ficou pendente
     s1 = input.nextLine();
     s2 = input.nextLine();
     s3 = input.nextLine();
